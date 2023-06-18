@@ -8,7 +8,7 @@ public class FibonacciSeries {
         System.out.println(number);
         for (int t = 0; t < lastFibonacci; t++) {
             if (number3 == lastFibonacci) {
-                System.out.println(number3);
+                
                 break;
             } else {
                 number3 = number + secondNumber;
