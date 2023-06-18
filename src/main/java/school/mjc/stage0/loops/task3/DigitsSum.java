@@ -2,13 +2,12 @@ package school.mjc.stage0.loops.task3;
 
 public class DigitsSum {
     public void printDigitsSum(int t){
-        int t;
-        String newNumber = "" + t;
+        String newNumber = "" + number;
         int fres = 0;
-        for (int k = 0; k < newNumber.length(); k++) {
-            int newN = t % 10;
+        for (int t = 0; t < newNumber.length(); t++) {
+            int newN = number % 10;
             fres = fres + newN;
-            t = t / 10;
+            number = number / 10;
         }
         System.out.println(fres);
     }
